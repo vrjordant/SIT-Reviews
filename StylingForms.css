@@ -1,0 +1,354 @@
+ b, a{
+	 color: #a32638;
+	 font-weight: bold;
+  }
+  
+h1, h2 {
+	font-style: italic;
+	color: #a32638;
+	text-align: center;
+}
+img {
+	max-width:100%;
+    display: block;
+    margin: 0 auto;
+}
+input[type="submit"], input[type="button"] {
+	width: 100%;
+    background-color: #a32638;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="reset"] {
+	width: 100%;
+    background-color: #a32638;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[name="room"]{
+	width: 20%;
+}
+input[name="time"]{
+	width: 20%;
+}
+
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: #a32638;
+    border-radius: 4px;
+    display: none;
+}
+
+
+table.center a {
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+table.center a:hover {
+    background-color: lightgrey;
+    color: black;
+	
+}
+
+table.nav{
+		display: inline-block;
+		width:100%;
+		margin-left:auto; 
+		margin-right:auto;
+		background-color: #a32638;
+		border-radius: 4px;
+		text-align:center;
+		
+}
+table.nav a {
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+	padding-left:5px;
+}
+
+
+table.nav a:hover {
+    background-color: lightgrey;
+    color: black;
+	
+}
+
+form{
+	  background: #EEEEEE;
+	  margin: auto;
+	  position: relative;
+	  max-width: 90%;
+	  font-family: Arial, sans-serif;
+	  font-size: 14px;
+	  font-style: italic;
+	  line-height: 24px;
+	  font-weight: bold;
+	  color: #a32638;
+	  text-decoration: none;
+	  border-radius: 10px;
+	  padding: 10px;
+	  border: 1px solid #999;
+	  
+	}
+
+	#about, #courses{
+	  background: #EEEEEE;
+	  margin: auto;
+	  position: relative;
+	  width: 90%;
+	  font-family: Arial, sans-serif;
+	  font-size: 14px;
+	  line-height: 24px;
+	  text-decoration: none;
+	  border-radius: 10px;
+	  padding: 10px;
+	  border: 1px solid #999;
+	  }
+	  
+
+
+table.three {
+	margin-left:auto; 
+    margin-right:auto;
+    background-color: white;
+    border: 2px solid #AF111C;
+    border-radius: 4px;
+    border-spacing: 5px 5px;
+    width: 70%;
+}
+table.three th {
+	font: 15px;
+	font-family: helvetica;
+}
+table.three td{
+	border: 1px solid #ddd;
+    text-align: left;
+    font: 10px;
+    border-radius: 4px;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+    font-family: helvetica;
+}
+
+
+	
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#calendar {
+       width: 100%;
+       height: 500px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+
+   #calendar .weekdays, #calendar .other-month {
+       display: none;
+   }
+
+
+   #calendar a {
+       color: #8e352e;
+       text-decoration: none;
+   }
+
+
+   #calendar ul {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       width: 100%;
+   }
+
+
+   #calendar li {
+       display: block;
+       float: left;
+       box-sizing:border-box;
+       margin-right: -1px;
+       border: 1px solid #ededed;
+       width: 100%;
+       padding: 10px;
+       margin-bottom: -1px;
+     }
+
+
+     #calendar .date {
+         text-align: center;
+         margin-bottom: 5px;
+         padding: 4px;
+         background: #333;
+         color: #fff;
+         width: 20px;
+         border-radius: 50%;
+         float: none;
+     }
+
+
+   #calendar .days li:hover {
+       background: #d3d3d3;
+   }
+
+
+   #calendar .event {
+       clear: both;
+       display: block;
+       font-size: 13px;
+       border-radius: 4px;
+       padding: 5px;
+       margin-top: 5px;
+       margin-bottom: 5px;
+       line-height: 14px;
+       background: #e4f2f2;
+       border: 1px solid #b5dbdc;
+       color: #009aaf;
+       text-decoration: none;
+   }
+
+
+   #calendar .event-desc {
+       color: #666;
+       margin: 3px 0 7px 0;
+       text-decoration: none;
+   }
+
+
+   .Daily {
+       margin-left: auto;
+       margin-right: auto;
+       min-width: 100%;
+       border: 5px solid black;
+       border-radius: 5px;
+       background-color: #eee;
+   }
+
+
+   .Daily th {
+       color: #a32638;
+       text-align: center;
+   }
+
+
+   .Daily td {
+       text-align: center;
+   }
+
+
+@media only screen and (min-width: 600px){
+	
+	
+	form{
+	  width: 550px;
+	}
+
+	#about,#courses{
+	  width: 550px;
+	  }
+	table.center{
+		max-width:500px;
+		display:table;
+	}
+	table.nav{
+		display: none;
+	}
+	
+	
+	 #calendar .weekdays, #calendar .other-month {
+      display: block;
+  }
+
+
+  body {
+      font-family: Tahoma;
+  }
+
+
+  header {
+      text-align: center;
+  }
+
+
+  #calendar {
+      width: 70%;
+  }
+
+
+  #calendar li {
+      width:14.342%;
+      padding: 5px;
+      box-sizing:border-box;
+      border: 1px solid #ccc;
+  }
+
+
+  #calendar ul.weekdays {
+      height: 40px;
+      background: #a32638;
+  }
+
+
+  #calendar ul.weekdays li {
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 20px;
+      border: none !important;
+      padding: 10px 6px;
+      color: #fff;
+      font-size: 13px;
+  }
+
+
+  #calendar .days li {
+      height: 130px;
+  }
+
+
+  #calendar .date {
+      float: right;
+  }
+
+
+  #calendar .other-month {
+      background: #f5f5f5;
+      color: #666;
+  }
+
+
+  .Daily {
+      min-width: 40%;
+  }
+
+}

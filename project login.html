@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--Comment-->
+<html>
+<head>
+	<title>HTML Form with CSS</title>
+	 <link rel="stylesheet" href="StylingForms.css">
+	 <meta charset="utf-8"/>
+    <script src = "projectJavaScript.js"></script>
+</head>
+<body>
+<img src="logo.jpg" alt="Stevens Logo" style="width:500px;height:213px;">
+<br>
+<table class="center">
+		<tr>
+			<td><h2><a href = "index.html">Home</a></h2></td>
+			<td><h2><a href = "project%20courses.html">Courses</a></h2></td>
+			<td><h2><a href = "project%20submit.html">Submit</a></h2></td>
+			<td><h2><a href = "project%20login.html">Login</a></h2></td>
+			<td><h2><a href = "project%20about.html">About</a></h2></td>
+		</tr>
+</table>
+<br>
+<form onsubmit = "login()">
+    <h1>Login</h1>
+        <span>Username:</span>
+        <br>
+        <input id="username" type="text" name="user">
+    <br>
+        <span>Password:</span>
+        <br>
+        <input id="password" type="password" name="pass">
+    <br>
+      <input type="submit" value="Login">
+    <br>
+    <br>
+    <h2>Create New Account</h2>
+		<span>Stevens Email:</span>
+		<br>
+		<input id="email" type="text" name="email">
+		<br>
+    	<span>Username:</span>
+        <br>
+        <input id="newusername" type="text" name="newuser">
+    <br>
+    	<span>Password:</span>
+        <br>
+        <input id="newpassword" type="password" name="newpass">
+    <br>
+    	<span>Confirm Password:</span>
+        <br>
+        <input id="confirmpassword" type="password" name="confirm">
+    <br>
+    <input type = "button" onclick = "createAccount()" value = "Create account">
+</form>
+<br>
+<table class="nav">
+			<tr>
+				<td><h2><a href = "index.html">Home</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20courses.html">Courses</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20submit.html">Submit</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20login.html">Login</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20about.html">About</a></h2></td>
+			</tr>
+	</table>
+</body>
+</html>

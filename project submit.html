@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIT Review</title>
+	<link rel="stylesheet" href="StylingForms.css">
+	<meta charset="utf-8"/>
+    
+</head>
+<body>
+	<img src="logo.jpg" alt="Stevens Logo" style="width:500px;height:213px;">
+<br>
+<table class="center">
+		<tr>
+			<td><h2><a href = "index.html">Home</a></h2></td>
+			<td><h2><a href = "project%20courses.html">Courses</a></h2></td>
+			<td><h2><a href = "project%20submit.html">Submit</a></h2></td>
+			<td><h2><a href = "project%20login.html">Login</a></h2></td>
+			<td><h2><a href = "project%20about.html">About</a></h2></td>
+		</tr>
+</table>
+	<br>
+	<form onsubmit = "submitReview()">
+	<h1>Submit</h1>
+		Course Number:
+		<br>
+		<input type = "text" name = "course" required>
+		<br>
+		<br>
+		Date (MM/DD):
+		<br>
+		<input type = "text" name = "date" required>
+		<br>
+		Time:
+		<br>
+		<input type = "text" name = "time" required>
+		<select name = "ampm" required>
+		<option value="">( )</option>
+		<option>AM</option>
+		<option>PM</option>
+		</select>
+		<br>
+		<br>
+		Building:
+		<select name = "building" required>
+		<option value="" selected>Please Select</option>
+		<option value="BC">Babbio Center</option>
+		<option value="MO">Morton</option>
+		<option value="P">Pierce</option>
+		<option value="K">Kidde</option>
+		<option value="MC">McLean</option>
+		<option value="B">Burchard</option>
+		<option value="L">Lieb</option>
+		<option value="EAS">EAS</option>
+		<option value="lib">Library</option>
+		<option value="other">Other (Please Specify)</option>
+		</select>
+		<br>
+		Room Number:
+		<input type = "text" name="room">
+		<br>
+		If "Other", please specify location:
+		<br>
+		<input type = "text" name="loc">
+		<br>
+		<br>
+		Organization Type:<br>
+		<input type="radio" name="org" value="TA" required>TA<br>
+		<input type="radio" name="org" value="frat" required>Fraternity<br>
+		<input type="radio" name="org" value="other" checked required>Other<br>
+		Host:
+		<input type="text" name="host">
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+	<br>
+	<table class="nav">
+			<tr>
+				<td><h2><a href = "index.html">Home</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20courses.html">Courses</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20submit.html">Submit</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20login.html">Login</a></h2></td>
+			</tr>
+			<tr>
+				<td><h2><a href = "project%20about.html">About</a></h2></td>
+			</tr>
+	</table>
+    <script src = "projectJavaScript.js"></script>
+</body>
+</html>
